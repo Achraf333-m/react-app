@@ -66,6 +66,7 @@ function Cart({ cart, changeQuantity, removeBook }) {
                         min={0}
                         max={30}
                         type="number"
+                        pattern="\d*"
                         className="cart__input"
                         value={book.quantity}
                       />
