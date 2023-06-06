@@ -19,6 +19,11 @@ function Highlights() {
               subtitle="10 000+ Books"
               para="Library has books in all your favorite genres"
             />
+            <Highlight
+              icon="tags"
+              subtitle="Affordable"
+              para="Get boks for as little as $10!!"
+            />
           </ul>
         </div>
       </div>
