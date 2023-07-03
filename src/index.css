@@ -312,7 +312,7 @@ HIGHLIGHTS
   left: 0;
   z-index: 1;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 #highlights:before {
