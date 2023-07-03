@@ -832,6 +832,10 @@ select {
     margin-bottom: 24px;
   }
 
+  .highlights__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
   .cart__book--img {
     display: none;
   }
