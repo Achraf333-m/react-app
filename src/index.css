@@ -302,18 +302,6 @@ HIGHLIGHTS
   margin: 0 auto;
 }
 
-#highlights:after,
-#highlights:before {
-  background: url("./assets/wave.svg");
-  content: "";
-  position: absolute;
-  width: 101vw;
-  height: 12vw;
-  left: 0;
-  z-index: 1;
-  background-size: cover;
-  background-repeat: repeat;
-}
 
 #highlights:before {
   transform: translateY(-100%);
