@@ -4,18 +4,17 @@ import Rating from "../components/ui/Rating";
 import Price from "../components/ui/Price";
 import React from "react";
 import Book from "../components/ui/Book";
-import { useState } from "react";
 
 function Bookinfo({ books, checkout, cart }) {
   const { title } = useParams();
-  const book = books.find(book => book.webTitle === title );
+  const book = books?.find(book => book.webTitle === title );
 
   function addToCart(book) {
     checkout(book)
   }
 
   function bookOnCart() {
-    return cart.find((book) => book.webTitle === title )
+    return cart?.find((book) => book.webTitle === title )
 
   }
 
@@ -28,7 +27,7 @@ function Bookinfo({ books, checkout, cart }) {
               <Link to="/books" className="book__link">
                 <FontAwesomeIcon icon="arrow-left" />
               </Link>
-              <Link to="/books/1" className="book__link">
+              <Link to="/books" className="book__link">
                 <h2 className="book__selected--title--top">Books</h2>
               </Link>
             </div>
